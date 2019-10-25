@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Part of Vagrant virtual environments for https://public-inbox.org
 export DEBIAN_FRONTEND="noninteractive"
-sudo apt-get  -y -q remove --purge postfix
-sudo apt-get -y -q autoremove
-sudo apt-get -y -q update
-sudo apt-get -y -q upgrade
-sudo apt-get -y -q install \
+sudo apt-get  -y -qq remove --purge postfix
+sudo apt-get -y -qq autoremove
+sudo apt-get -y -qq update
+sudo apt-get -y -qq upgrade
+sudo apt-get -y -qq install \
   libdbd-sqlite3-perl \
   libdbi-perl \
   libemail-mime-contenttype-perl \
